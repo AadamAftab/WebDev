@@ -1,0 +1,17 @@
+web -> collection of docs, content on the internet
+website->static content; read only(blog and wiki)
+web application->dynamic content(facebook, twitter, instagram)
+
+web application:
+front end/UI --> HTML, CSS, JS
+back end/server side --> Python, Java, Node.js, PHP, Ruby, Go, Rust, C#
+database --> MySQL, PostgreSQL, MongoDB, Oracle, SQL Server
+
+full stack developer-> knowledge of frontend, backend, databasing
+
+MERN stack-> MongoDB, Express.js, React.js, Node.js
+
+Rules:
+1. Learn by applying
+2. Googling is good. And should be done to read documentations
+3. practice a lot

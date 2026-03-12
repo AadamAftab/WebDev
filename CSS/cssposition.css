@@ -1,0 +1,11 @@
+/*
+relative to current window, gap of window maintained 
+absolute relative to nearest positioned ancestor
+fixed relative to current window
+sticky relative to current window but sticks when scrolled
+
+fixed - relative to viewport and scrolling ke saath image stays constant
+fixed vs sticky:
+sticky means pehle normal flow mein rahega and jab scroll karoge tab fixed ho jayega till parent is there
+fixed means it is always fixed for all scrolling
+*/

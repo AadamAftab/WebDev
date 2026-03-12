@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    /* Light gray background */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navbar Styling */
+.navcontainer {
+    background: linear-gradient(90deg, #2A7B9B 0%, #57C785 100%);
+    padding: 15px 50px;
+    color: white;
+}
+
+#navlist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#navlogo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#navitems a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 1.5rem;
+}
+
+/* Main Content Wrapper (The White Box) */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.main-wrapper {
+    background-color: white;
+    width: 80%;
+    max-width: 900px;
+    padding: 40px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Recipe Items */
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.leftbox {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.leftbox h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.leftbox h3 {
+    margin: 15px 0 5px 0;
+}
+
+.leftbox ul,
+.leftbox ol {
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+/* Rounded Image Styling */
+.rightbox img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 30px;
+    /* Gives it that rounded look in the pic */
+}
+
+/* Footer */
+footer {
+    background-color: #2A7B9B;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

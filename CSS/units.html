@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>units</title>
+    <style>
+        .parent {
+            border: 2px solid black;
+            width: 50%;
+            height: 50%;
+        }
+
+        .child {
+            border: 2px solid red;
+            width: 40%;
+            height: 50%;
+        }
+
+        /*numvh means number% of viewport height*/
+    </style>
+</head>
+
+<!--physical pixel is 1/96 of an inch
+logical pixel is virtual pixel 1/96 of an inch
+ppi means pixels per inch. more ppi more clear image, determines clarity and detail of screen
+dpi means dots per inch, determines resolution and quality of print-->
+
+<!--xem means x*default font size of parent-->
+<!--rem means x*default font size of html-->
+
+<body>
+    <div class="parent">
+        <div class="child">
+            <h1>units</h1>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!--usually dont use absolute units for layout, use relative units. it doesnt break website and causes easy scalability-->

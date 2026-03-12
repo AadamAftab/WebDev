@@ -1,0 +1,5 @@
+browser -> dns -> local isp -> regional isp -> national isp -> internet -> router -> router-> server; isps have dns resolvers
+routing table -> algorithm to find the best path to a destination
+
+protocols:
+http, ftp, smtp, ssh, dns, tcp, udp

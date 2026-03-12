@@ -1,0 +1,73 @@
+<!--powerful tool to create various layouts-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--justify-content is used to align flex items in the container as per main axis-->
+    <title>flexbox</title>
+    <!--flexbox is used to create responsive layouts-->
+    <style>
+        .container {
+            background-color: beige;
+            border: solid 1px black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            /*wrap, nowrap, reverse wrap*/
+            justify-content: center;
+            /*placing between contents*/
+            justify-content: space-between;
+            /*flex-direction: row reverse; does reversal*/
+            /*flex-direction: row by default means how flex items are placed in the flex container*/
+        }
+
+        .box {
+            border: solid 1px black;
+            margin: 2px;
+            padding: 2px;
+        }
+
+        #box1 {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            order: 500;
+            /*order is used for ordering the flex items*/
+            flex-shrink: 15
+                /*flex-shrink is used to shrink the flex items*/
+            ;
+        }
+
+        /*flex short hand notation: flex: flex-grow flex-shrink flex-basis*/
+        /*flex-basis is to set the initial size of the flex items
+        /*align-self is used to align the flex items in the container as per cross axis*/
+        #box2 {
+            background-color: green;
+            width: 100px;
+            height: 100px;
+        }
+
+        #box3 {
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+        }
+
+        #box4 {
+            background-color: yellow;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">box1</div>
+        <div class="box" id="box2">box2</div>
+        <div class="box" id="box3">box3</div>
+        <div class="box" id="box4">box4</div>
+    </div>
+</body>
+
+</html>

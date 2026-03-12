@@ -1,0 +1,13 @@
+network: a collection of systems and resources interconnected
+internet: network of networks
+WWW->world wide web->collection of web pages and resources interconnected
+IP address-> unique identification address of a device
+
+Browser->tool to access docs, resources, websites, web apps
+browser engine->brain that runs the browser
+
+client, server model:
+client sends request and response received from server.
+
+client->laptop, pc, mobile, browser, app, cli
+server->db server, file server, application server, email server, web server

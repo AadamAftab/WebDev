@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project1</title>
+</head>
+
+<body>
+    <h2>Event Registration</h2>
+    <label>Name:</label>
+    <br>
+    <input type="text" name="nametext">
+    <br>
+    <br>
+    <label>Email:</label>
+    <br>
+    <input type="email" name="emailtext">
+    <br>
+    <br>
+    <label>Phone:</label>
+    <br>
+    <input type="tel" name="numbertext" pattern="{0-9}{3}-{0-9}{3}-{0-9}{4}">
+    <br>
+    <br>
+    <label>Occupation:</label>
+    <br>
+    <select name="occupations" id="selector1">
+        <option value="engineer">Engineer</option>
+        <option value="doctor">Doctor</option>
+        <option value="actor">Actor</option>
+    </select>
+    <br>
+    <br>
+    <fieldset>
+        <legend>Topics of interest:</legend>
+
+        <div>
+            <input type="checkbox" id="scales" name="scales">
+            <label for="scales">Javascript</label>
+        </div>
+        <div>
+            <input type="checkbox" id="horns" name="horns" />
+            <label for="horns">HTML</label>
+        </div>
+    </fieldset>
+    <br>
+    <p>Comments:</p>
+    <textarea name="textarea" id="" cols="40" rows="20"></textarea>
+    <button>Register</button>
+</body>
+
+</html>
